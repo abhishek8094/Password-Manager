@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassX- Your Personal Password</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Navabr -->
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li> <a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li> <a href="">Contact</a></li>
+           
+        </ul>
+    </nav>
+    
+    <!-- Container box -->
+    <div class="container">
+        <h1>Password Manager</h1>
+        <p>We're thrilled to have you here. your digital life contains a myriad of passwords, and we know how challenging it can be to manage them all. that's why we're here to make it easy for you.</p>
+        <h2>Your Password <span id="alert">(Copied)</span></h2>
+
+        <Table>
+            <tr>
+                <th>Websites</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+
+        </Table>
+
+        <h2>Add a Password</h2>
+
+        <form >
+            <label for="website">Websites :</label>
+            <input type="text" id="website" name="website" required/>
+
+             <br>
+             <br>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" required/>
+             
+            <br>
+            <br>
+            <label for="Password">Password:</label>
+            <input type="password" id="password" required/>
+             
+            <br>
+            <br>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+ <script src="Logic.js"></script>
+</body>
+</html>
